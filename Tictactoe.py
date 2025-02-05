@@ -446,9 +446,9 @@ def calculate_rating():
     rating = rating * (0.75 ** win_counter[2][0]) #Easy loss
     
     #Medium
-    rating = rating * (1.05 ** win_counter[0][1]) #Medium win
-    rating = rating * (0.975 ** win_counter[1][1]) #Medium draw
-    rating = rating * (0.9 ** win_counter[2][1]) #Medium loss
+    rating = rating * (1.075 ** win_counter[0][1]) #Medium win
+    rating = rating * (1.01 ** win_counter[1][1]) #Medium draw
+    rating = rating * (0.95 ** win_counter[2][1]) #Medium loss
     
     #Medium
     rating = rating * (1.5 ** win_counter[0][2]) #Hard win
