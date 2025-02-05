@@ -2,7 +2,7 @@
 TicTacToe
 
     Gamemodes:
-        2v2:
+        PvP:
             Each player inputs name
             Each player places their piece until win
             Output player that won
@@ -11,7 +11,7 @@ TicTacToe
             Computer has multiple difficulties
             Player should be given ratings depending on these games
             Record win_counter and losses for these games
-            Same layout as 2v2
+            Same layout as PvP
     
     Logic:
         Checks all win conditions without using 8 different if statements by looping through blocks
@@ -19,10 +19,10 @@ TicTacToe
             Easy:
                 Computer randomly places squares everywhere until game ends
             Medium:
-                Computer randomly places squares everywhere until it can place 3 in a row
+                Computer randomly places squares everywhere until it can place 3 in a row or block the player's 3 in a row
                 Detects 2 in a row by looping through all blocks and checking horizontal and vertical 2 in a row for each block
             Hard:
-                First utilises finishing logic form medium
+                First utilises finishing logic from medium
                 Then uses that same logic to block player if they can place 3
                 Then places blocks in corners and then in varying places so that it is impossible for computer to lose
     
