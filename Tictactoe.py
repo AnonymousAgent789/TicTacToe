@@ -542,7 +542,7 @@ while running:
     
     elif current_screen == 5: #PvP name selector screen
         screen.fill(themes[current_theme][1][1])
-        screen.blit(pygame.font.SysFont(None, 75).render("Enter names of players", True, themes[current_theme][1][0]), (150, 25)) #Title text
+        screen.blit(pygame.font.SysFont(None, 75).render("Enter names of players", True, themes[current_theme][1][0]), (5, 25)) #Title text
         
         #PLayer 1
         pygame.draw.rect(screen, themes[current_theme][1][9], [150, 100, 300, 100])
